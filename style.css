@@ -54,14 +54,14 @@ header{
 }
 
 .about{
-    flex 1;
+    flex: 1;
     background-color: #1f2937;
     color: white;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
     
 .image{
-    flex 1;
+    flex: 1;
     display: flex;
     justify-content: flex-end;
 }
@@ -99,6 +99,44 @@ header{
 .aboutme button:hover{
     background-color: rgb(24, 31, 42);
     cursor: pointer;
+}
+
+.experience-header{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #1f2937;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.experience-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between the items */
+    margin-bottom: 40px; /* Space before the long paragraph text */
+}
+
+/* This makes each individual image + p stack vertically */
+.experience-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px; /* Limits width so text wraps nicely */
+    text-align: center;
+}
+
+.experience-item img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #1f2937; /* Blue border from reference */
+    border-radius: 15px;      /* Rounded corners */
+    object-fit: cover;
+    margin-bottom: 10px;      /* Space between image and its subtext */
+}
+
+.experience-item p {
+    font-size: 14px;
+    color: #6b7280;
 }
 
 
