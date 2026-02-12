@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1{
+
+    margin-left: 40px;
+}
+
+header{
+
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #1f2937;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    border: 0;
+    display: flex;                    
+    justify-content: space-between; 
+    align-items: center;       
+    height: 80px;   
+
+}
+
+.tab button{
+    background-color: inherit;
+    border: 1px;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+    height: 80px;   
+
+}
+
+
+.tab button:hover{
+    background-color: rgb(24, 31, 42);
+
+    color: rgb(255, 255, 255);
+}
+
+.about {
+  display: flex;           
+  align-items: center;      
+  justify-content: space-between; 
+  padding: 50px 15%;       
+  gap: 20px;              
+}
+
+.about{
+    flex 1;
+    background-color: #1f2937;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+    
+.image{
+    flex 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image img {
+  width: 350px;             /* Adjust this size to your liking */
+  height: 150px;
+  border-radius: 8px;       /* Adds those nice rounded corners we discussed */
+}
+
+.aboutme h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+ 
+}
+
+.aboutme p{
+    font-size: 15px;
+   
+    margin-bottom: 30px;
+}
+
+.aboutme button{
+    background-color: rgb(64, 111, 185);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+
+}
+
+
+.aboutme button:hover{
+    background-color: rgb(24, 31, 42);
+    cursor: pointer;
+}
+
+
