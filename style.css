@@ -67,9 +67,9 @@ header{
 }
 
 .image img {
-  width: 350px;             /* Adjust this size to your liking */
+  width: 350px;             
   height: 150px;
-  border-radius: 8px;       /* Adds those nice rounded corners we discussed */
+  border-radius: 8px;       
 }
 
 .aboutme h2{
@@ -112,26 +112,25 @@ header{
 .experience-row {
     display: flex;
     justify-content: center;
-    gap: 30px; /* Space between the items */
-    margin-bottom: 40px; /* Space before the long paragraph text */
+    gap: 30px; 
+    margin-bottom: 40px; 
 }
 
-/* This makes each individual image + p stack vertically */
 .experience-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 150px; /* Limits width so text wraps nicely */
+    width: 150px; 
     text-align: center;
 }
 
 .experience-item img {
     width: 150px;
     height: 150px;
-    border: 5px solid #1f2937; /* Blue border from reference */
-    border-radius: 15px;      /* Rounded corners */
+    border: 5px solid #1f2937; 
+    border-radius: 15px;    
     object-fit: cover;
-    margin-bottom: 10px;      /* Space between image and its subtext */
+    margin-bottom: 10px;      
 }
 
 .experience-item p {
@@ -139,4 +138,70 @@ header{
     color: #6b7280;
 }
 
+.quote-section {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f4f6; 
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.quote-text{
+    font-size: 36px;
+    font-weight: 300px;
+    color: #1f2937; 
+    max-width: 800px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.author{
+    font-weight: 700;
+    font-size: 36px;
+    color: #1f2937; 
+    margin-right:50px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.cta-section {
+    padding: 100px 15%; 
+    background-color: white;
+}
+.cta-banner {
+    font-family: arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #3882f6; 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 50px 100px;
+    border-radius: 8px;
+    gap: 50px;
+}
+
+.cta-text h3{
+    margin-bottom: 5px;
+}
+
+.cta-button {
+    background-color: #3882f6;
+    color: #ffffff; 
+    border: 2px solid white; 
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
